@@ -1,0 +1,74 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "name": "James",
+      "email": "james@haposoft.com",
+      "position": "Director",
+      "age": "35"
+    },
+    {
+      "id": 2,
+      "name": "Dan",
+      "email": "dan@haposoft.com",
+      "position": "HR",
+      "age": "30"
+    },
+    {
+      "id": 3,
+      "name": "Alice",
+      "email": "alice@haposoft.com",
+      "position": "PM",
+      "age": "32"
+    },
+    {
+      "id": 4,
+      "name": "Alex",
+      "email": "alex@haposoft.com",
+      "position": "QA",
+      "age": "23"
+    },
+    {
+      "id": 5,
+      "name": "Bob",
+      "email": "bob@haposoft.com",
+      "position": "Dev",
+      "age": "26"
+    },
+    {
+      "id": 6,
+      "name": "Jessica",
+      "email": "jessica@haposoft.com",
+      "position": "Designer",
+      "age": "28"
+    },
+    {
+      "id": 7,
+      "name": "John",
+      "email": "john@haposoft.com",
+      "position": "Dev",
+      "age": "24"
+    },
+    {
+      "id": 8,
+      "name": "Harry",
+      "email": "Harry@haposoft.com",
+      "position": "Dev",
+      "age": "29"
+    },
+    {
+      "id": 9,
+      "name": "Marry",
+      "email": "marry@haposoft.com",
+      "position": "Dev",
+      "age": "24"
+    },
+    {
+      "id": 10,
+      "name": "McQueen",
+      "email": "mcqueen@haposoft.com",
+      "position": "QA",
+      "age": "32"
+    }
+  ]
+}
