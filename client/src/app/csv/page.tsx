@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Col, Container, Form, Row, Table } from "react-bootstrap";
+import { Col, Container, Form, Row, Table } from "react-bootstrap";
 import Papa from "papaparse";
 import { useState } from "react";
 

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import styles from "../page.module.css";
+import logo from "../../../public/next.svg";
 
 const CsvPage = () => {
   return (
@@ -10,11 +11,10 @@ const CsvPage = () => {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/next.svg"
+            src={logo}
             alt="Next.js Logo"
             width={180}
             height={37}
-            priority
           />
         </div>
       </main>

@@ -1,0 +1,11 @@
+.card-container {
+  width: 18%;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.card-container:hover {
+  transform: scale(0.9);
+  background-color: cyan;
+}

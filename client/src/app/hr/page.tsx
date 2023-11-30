@@ -8,12 +8,10 @@ import useSWR from "swr";
 import AddModal from "@/components/addStaff.modal";
 import DeleteModal from "@/components/deleteStaff.modal";
 import EditModal from "@/components/editStaff.modal";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { CSVLink } from "react-csv";
 import Pagination from "@/components/pagination";
 import { paginate } from "./paginate";
-import Papa from "papaparse";
-import { Form } from "react-bootstrap";
 
 const HrPage = () => {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
@@ -42,7 +40,6 @@ const HrPage = () => {
 
   if (staff && staff.length > 0) {
     const paginated = paginate(staff, currentPage, pageSize);
-    console.log("check paginate post: ", paginated);
     return (
       <div>
         <h1 className="title">HR Manager</h1>
